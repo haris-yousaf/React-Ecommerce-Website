@@ -1,0 +1,16 @@
+.hero{
+    border: 1px solid #ffffff;
+    margin: 50px 300px 100px;
+    height: 450px;
+    background-image: url(./cover.png);
+    background-position: center;
+    border-radius: 40px;
+    background-size: 100% 100%;
+    background-clip: border-box;
+}
+
+.hero:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
